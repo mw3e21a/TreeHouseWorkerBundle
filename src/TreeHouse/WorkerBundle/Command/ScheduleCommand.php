@@ -2,7 +2,7 @@
 
 namespace TreeHouse\WorkerBundle\Command;
 
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\ORM\EntityManagerInterface;
 use Pheanstalk\PheanstalkInterface;
 use Symfony\Component\Console\Command\Command;
